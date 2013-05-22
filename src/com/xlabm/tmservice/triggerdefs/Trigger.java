@@ -1,7 +1,5 @@
 package com.xlabm.tmservice.triggerdefs;
 
-import com.xlabm.tmservice.ITMService;
-
 public abstract class Trigger {
 
     protected int status;
