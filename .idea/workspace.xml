@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="434e9e53-465d-4048-83a9-f8abd1dcca71" name="New" comment="Fixed XMLParser and Bootup Problem">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/GeoTrigger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TimerTrigger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/Trigger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TriggerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atlassian-ide-plugin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TMService.iws" />
@@ -21,7 +15,7 @@
     <file path="/processTriggers.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1368982873459" ignored="false" />
     <file path="/fragment.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369294771185" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369276007314" ignored="false" />
-    <file path="/Dummy.txt" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369295509820" ignored="false" />
+    <file path="/Dummy.txt" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369295536267" ignored="false" />
     <file path="/GuardWidget.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369016437580" ignored="false" />
     <file path="$PROJECT_DIR$/TriggerUtils/res/layout/main.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369017466175" ignored="false" />
     <file path="$PROJECT_DIR$/../TriggerUtils/res/layout/main.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369017533622" ignored="false" />
@@ -713,7 +707,11 @@
       <created>1369295517255</created>
       <updated>1369295517255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed XMLParser and Bootup Problem">
+      <created>1369295553420</created>
+      <updated>1369295553420</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
