@@ -10,7 +10,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.*;
 import android.util.Log;
-import com.xlabm.tmservice.triggerdefs.Trigger;
+import com.xlabm.tmservice.tmutils.Trigger;
 
 import java.util.HashMap;
 
@@ -159,6 +159,7 @@ public class TriggerManagerService extends Service {
         }
     };
 
+    private TriggerXMLProcessor sProcessor;
 
     @Override
     public void onCreate() {
@@ -170,20 +171,25 @@ public class TriggerManagerService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        super.onStart(intent, startId);
+        super.onStartCommand(intent, flags, startId);
         Log.v(TAG, "onStart() called");
-        TriggerXMLProcessor sProcessor = new TriggerXMLProcessor();
-        triggers = sProcessor.getTriggers();
-        mFormID = sProcessor.getFormID();
-        mFormName = sProcessor.getFormName();
+        sProcessor = new TriggerXMLProcessor();
+        sProcessor.getTriggers();
         return START_STICKY;
     }
 
     //Return IBinder representing remotable object
     @Override
     public IBinder onBind(Intent intent) {
-        Log.v(TAG, "onBind() called");
-        return new TriggerManager();
+        if (sProcessor.getStatus().equals(AsyncTask.Status.FINISHED)) {
+            mFormID = sProcessor.getFormID();
+            mFormName = sProcessor.getFormName();
+            Log.v(TAG, "onBind() called");
+            return new TriggerManager();
+        } else if (sProcessor.getStatus().equals(AsyncTask.Status.RUNNING)) {
+            //do something
+            return null;
+        } else return null;
     }
 
     @Override

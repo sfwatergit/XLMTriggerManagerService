@@ -1,9 +1,10 @@
 package com.xlabm.tmservice;
 
 import android.os.AsyncTask;
+import android.util.Log;
 import android.util.Xml;
-import com.xlabm.tmservice.triggerdefs.Trigger;
-import com.xlabm.tmservice.triggerdefs.TriggerFactory;
+import com.xlabm.tmservice.tmutils.Trigger;
+import com.xlabm.tmservice.tmutils.TriggerFactory;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -12,27 +13,36 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
-import java.util.List;
 
 /**
  * The type Trigger processor.
  */
 public class TriggerXMLProcessor {
     private static final String ns = null;
-    private static final String tUrlString = "http://www.ocf.berkeley" +
-            ".edu/~saf/triggers/triggerTest.xml";
+    private static final String tUrlString = "http://www.ocf.berkeley.edu/~saf/Test.xml";
+    private static final String TAG = "com.xlabm.tmservice.TriggerXMLProcessor";
     private static String mFormID;
     private static String mFormName;
+    private static DownloadXMLTask downloadXMLTask;
+
+    public AsyncTask.Status getStatus() {
+        return downloadXMLTask.getStatus();
+    }
+
+
     TriggerFactory triggerFactory = new TriggerFactory();
+    public static HashMap<String, Trigger> mTriggers = new HashMap<String, Trigger>();
 
     /**
      * Downloads and returns the triggers. Call is done asynchronously.
      *
      * @return the triggers
      */
-    public HashMap<String, Trigger> getTriggers() {
-        DownloadXMLTask xmlTask = new DownloadXMLTask();
-        return xmlTask.doInBackground();
+    public void getTriggers() {
+
+        downloadXMLTask = new DownloadXMLTask();
+        downloadXMLTask.execute();
+
     }
 
     /**
@@ -59,8 +69,9 @@ public class TriggerXMLProcessor {
      *
      * @param in the in
      * @return the list
-     * @throws XmlPullParserException the xml pull parser exception
-     * @throws IOException            the iO exception
+     * @throws org.xmlpull.v1.XmlPullParserException
+     *                             the xml pull parser exception
+     * @throws java.io.IOException the iO exception
      */
     public HashMap<String, Trigger> parse(InputStream in) throws
             XmlPullParserException,
@@ -78,128 +89,108 @@ public class TriggerXMLProcessor {
 
     private HashMap<String, Trigger> readFeed(XmlPullParser parser) throws
             XmlPullParserException, IOException {
-        HashMap<String, Trigger> triggers = new HashMap<String, Trigger>();
         parser.require(XmlPullParser.START_TAG, ns, "triggers");
-        while (parser.next() != XmlPullParser.END_TAG) {
-            if (parser.getEventType() != XmlPullParser.START_TAG) {
-                continue;
-            }
-            String name = parser.getName();
-            mFormID = parser.getAttributeValue(0);
-            mFormName = parser.getAttributeValue(1);
+        mFormID = parser.getAttributeValue(ns, "xFormID");
+        mFormName = parser.getAttributeValue(ns, "xFormName");
+        parser.nextTag();
+        while (!parser.getName().equals("triggers")) {
 
+            String name = parser.getName();
 
             //Starts by looking for the trigger tag
-            if (name.equals("trigger")) {
+            while (name.equals("trigger")) {
+                readTrigger(parser);
+                parser.nextTag();
+                name = parser.getName();
 
-                Trigger trigger = readTrigger(parser);
-                triggers.put(trigger.qid, trigger);
-
-            } else {
-                skip(parser);
             }
         }
-        return triggers;
+        return mTriggers;
     }
 
-    private void skip(XmlPullParser parser) throws XmlPullParserException, IOException {
-        if (parser.getEventType() != XmlPullParser.START_TAG) {
-            throw new IllegalStateException();
-        }
-        int depth = 1;
-        while (depth != 0) {
-            switch (parser.next()) {
-                case XmlPullParser.END_TAG:
-                    depth--;
-                    break;
-                case XmlPullParser.START_TAG:
-                    depth++;
-                    break;
-            }
-        }
-    }
 
-    private String readQid(XmlPullParser parser) throws IOException, XmlPullParserException {
-
-
-        String qid = null;
-        //SID@XLABM null parameter indicates we are not using namespaces
-        // (though we might in the future).
-        qid = parser.getAttributeValue(null, "qid");
-        return qid;
-    }
-
+    //This should read and return a trigger type
     private Trigger readTrigger(XmlPullParser parser)
             throws
             IOException,
             XmlPullParserException {
-        Trigger trigger;
 
-        String qid = null;
-        String type = null;
+
+        String qid;
+        String type = "default";
         HashMap<String, String> params;
         params = new HashMap<String, String>();
 
+
         parser.require(XmlPullParser.START_TAG, ns, "trigger");
-        while (parser.next() != XmlPullParser.END_TAG) {
-            if (parser.getEventType() != XmlPullParser.START_TAG) {
-                continue;
+        //type and qid are defined as attributes on the trigger tag
+
+        qid = parser.getAttributeValue(null, "qid");
+
+        parser.nextTag();
+        do {
+
+            String tagName = parser.getName();
+
+
+            if (tagName.equals("trigger")) {
+                break;
+            } else {
+                type = parser.getName();
+                for (int i = 0; i < parser.getAttributeCount(); i++) {
+                    params.put(parser.getAttributeName(i), parser.getAttributeValue(i));
+                }
+                parser.nextTag();
             }
-
-            //SID@XLABM null parameter indicates we are not using namespaces
-            // (though we might in the future).
-            qid = readQid(parser);
-
-
-            type = parser.getName();
-            for (int i = 0; i < parser.getAttributeCount(); i++) {
-                String k = parser.getAttributeName(i);
-                String v = parser.getAttributeValue(i);
-                params.put(k, v);
-            }
-
-
-            parser.require(XmlPullParser.END_TAG, ns, "trigger");
-        }
-        return triggerFactory.makeTrigger(qid, type, params);
+        } while (!parser.getName().equals("trigger"));
+        Log.v(TAG, "Trigger: " + parser.getName() + " , " + qid + ", " + " , " + params.toString());
+        Trigger trigger = triggerFactory.makeTrigger(qid, type, params);
+        mTriggers.put(trigger.qid, trigger);
+        return trigger;
 
 
     }
 
     //Subclass to download xml and return parsed triggers as string
-    class DownloadXMLTask extends AsyncTask<String, Void, HashMap<String,
-            Trigger>> {
-
+    class DownloadXMLTask extends AsyncTask<String, Void, Integer> {
 
         @Override
-        protected HashMap<String, Trigger> doInBackground(String... urls) {
+        protected void onPostExecute(Integer integer) {
+            super.onPostExecute(integer);
 
-            HashMap<String, Trigger> triggers = null;
+        }
+
+        @Override
+        protected Integer doInBackground(String... urls) {
+
+
             try {
-                return getXmlFromUrl(tUrlString);
+                mTriggers = getXmlFromUrl(tUrlString);
+                return 1;
             } catch (XmlPullParserException e) {
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return triggers;
+            return 0;
         }
+
 
         private HashMap<String, Trigger> getXmlFromUrl(String urlString)
                 throws XmlPullParserException, IOException {
             InputStream stream = null;
-            HashMap<String, Trigger> triggers = null;
 
             try {
                 stream = downloadUrl(urlString);
-                triggers = parse(stream);
+                parse(stream);
             } finally {
                 if (stream != null) {
                     stream.close();
                 }
             }
-            return triggers;
+            return mTriggers;
         }
+
 
         /**
          * Download xml from url.

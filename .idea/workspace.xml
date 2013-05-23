@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="xlabm" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="434e9e53-465d-4048-83a9-f8abd1dcca71" name="New" comment="New" />
+    <list default="true" id="434e9e53-465d-4048-83a9-f8abd1dcca71" name="New" comment="Fixed XMLParser and Bootup Problem">
+      <change type="DELETED" beforePath="C:\Users\Sid\Documents\Dev\Android\XLMTriggerManagerService\src\com\xlabm\tmservice\triggerTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Sid\Documents\Dev\Android\XLMTriggerManagerService\src\com\xlabm\tmservice\triggerdefs\GeoTrigger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Sid\Documents\Dev\Android\XLMTriggerManagerService\src\com\xlabm\tmservice\triggerdefs\TimerTrigger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Sid\Documents\Dev\Android\XLMTriggerManagerService\src\com\xlabm\tmservice\triggerdefs\Trigger.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Sid\Documents\Dev\Android\XLMTriggerManagerService\src\com\xlabm\tmservice\triggerdefs\TriggerFactory.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Sid\Documents\Dev\Android\XLMTriggerManagerService\TMService.iml" afterPath="$PROJECT_DIR$/tmservice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/xlabm/tmservice/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/xlabm/tmservice/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/xlabm/tmservice/ITMService.java" afterPath="$PROJECT_DIR$/gen/com/xlabm/tmservice/ITMService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/xlabm/tmservice/ITMServiceCallback.java" afterPath="$PROJECT_DIR$/gen/com/xlabm/tmservice/ITMServiceCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/xlabm/tmservice/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/xlabm/tmservice/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/xlabm/tmservice/R.java" afterPath="$PROJECT_DIR$/gen/com/xlabm/tmservice/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TMService.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/ITMService.aidl" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369182307983" ignored="false" />
-    <file path="/TriggerManagerService.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369198862843" ignored="false" />
-    <file path="/Trigger.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369201521259" ignored="false" />
+    <file path="/TriggerManagerService.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369295168418" ignored="false" />
+    <file path="/Trigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272066111" ignored="false" />
     <file path="/processTriggers.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1368982873459" ignored="false" />
-    <file path="/fragment.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369195008422" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369085361941" ignored="false" />
-    <file path="/Dummy.txt" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369204363490" ignored="false" />
+    <file path="/fragment.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369294771185" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369276007314" ignored="false" />
+    <file path="/Dummy.txt" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369295301777" ignored="false" />
     <file path="/GuardWidget.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369016437580" ignored="false" />
     <file path="$PROJECT_DIR$/TriggerUtils/res/layout/main.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369017466175" ignored="false" />
     <file path="$PROJECT_DIR$/../TriggerUtils/res/layout/main.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369017533622" ignored="false" />
@@ -22,18 +46,59 @@
     <file path="/a.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369072221077" ignored="false" />
     <file path="/a.scm" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369071861084" ignored="false" />
     <file path="/TMSBootUpBroadcastReceiver.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369202342864" ignored="false" />
-    <file path="/TriggerXMLProcessor.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369201646006" ignored="false" />
-    <file path="/TriggerFactory.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369201442426" ignored="false" />
-    <file path="/GeoTrigger.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369201576219" ignored="false" />
-    <file path="/TimerTrigger.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369201557705" ignored="false" />
+    <file path="/TriggerXMLProcessor.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369290572787" ignored="false" />
+    <file path="/TriggerFactory.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369284671354" ignored="false" />
+    <file path="/GeoTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369286312461" ignored="false" />
+    <file path="/TimerTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369286045009" ignored="false" />
     <file path="$PROJECT_DIR$/../Android/xMobile/odk1.3/.idea/workspace.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369191695720" ignored="false" />
     <file path="/DownloadXMLTask.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369157861657" ignored="false" />
     <file path="/testSurveyTriggers.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369161878192" ignored="false" />
     <file path="$PROJECT_DIR$/../Android/xMobile/odk1.3/.idea/modules.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369191635315" ignored="false" />
     <file path="/ExecuteTrigger.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369195311805" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/ExecuteTrigger.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369195429012" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369204411589" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369204393047" ignored="false" />
+    <file path="$PROJECT_DIR$/../odktrigger/atlassian-ide-plugin.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369270910076" ignored="false" />
+    <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369265284682" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/AndroidManifest.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369271996260" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/build.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369271996260" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/src/com/example/XMLParserDebug/MyActivity.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369271996260" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/atlassian-ide-plugin.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272103749" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/res/values/strings.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369271996260" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/res/layout/main.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369271996260" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/src/com/example/XMLParserDebug/TriggerXMLProcessor.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272037526" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/src/com/example/XMLParserDebug/triggerdefs/TriggerFactory.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272049526" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/src/com/example/XMLParserDebug/triggerdefs/TimerTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272049526" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/src/com/example/XMLParserDebug/triggerdefs/GeoTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272049526" ignored="false" />
+    <file path="$PROJECT_DIR$/../XMLParserDebug/src/com/example/XMLParserDebug/triggerdefs/Trigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272066111" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/AndroidManifest.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369276434748" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/build.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272104581" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/res/values/strings.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369273404903" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/res/layout/main.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369273633465" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/atlassian-ide-plugin.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369294923872" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/triggerdefs/Trigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272129579" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/triggerdefs/TriggerFactory.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272129579" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/triggerdefs/TimerTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272129579" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/triggerdefs/GeoTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272129579" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/TriggerXMLProcessor.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369274997813" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/TestActivity.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369275962117" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/res/layout/Test.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369273110225" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/res/values/bools.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369274696741" ignored="false" />
+    <file path="/TestActivity.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369294108255" ignored="false" />
+    <file path="/main.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369273628347" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/gen/com/xlabm/tmservice/TMXMLTest/Manifest.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369276441990" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/gen/com/xlabm/tmservice/TMXMLTest/R.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369276441990" ignored="false" />
+    <file path="/bools.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369274696741" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/TestActivity.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369294190816" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/TriggerXMLProcessor.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369290577941" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/tmutils/Trigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369276526462" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/tmutils/TriggerFactory.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369284673554" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/tmutils/TimerTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369287325961" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/tmutils/GeoTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369287325961" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/triggerTest.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369278661214" ignored="false" />
+    <file path="/triggerTest.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369278661214" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/tmutils/defaultTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369284565557" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369285711668" ignored="false" />
+    <file path="/DefaultTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369285697087" ignored="false" />
+    <file path="$PROJECT_DIR$/../TMXMLTest/gen/com/xlabm/tmservice/TMXMLTest/BuildConfig.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369294677412" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +120,12 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -93,6 +162,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -102,73 +173,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Trigger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/Trigger.java">
+      <file leaf-file-name="TriggerManagerService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+            <state line="26" column="43" selection-start="750" selection-end="750" vertical-scroll-proportion="0.78507996">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="triggerTest.xsd" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerTest.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriggerFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/TriggerFactory.java">
+      <file leaf-file-name="DefaultTrigger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TMSBootUpBroadcastReceiver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TMSBootUpBroadcastReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="3" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ITMServiceCallback.aidl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ITMServiceCallback.aidl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.52845526">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="triggerTest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerTest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="106" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TimerTrigger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/TimerTrigger.java">
+        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TimerTrigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeoTrigger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/GeoTrigger.java">
+      <file leaf-file-name="TriggerFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TriggerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="19" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormsProviderAPI.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/FormsProviderAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,25 +223,44 @@
       <file leaf-file-name="TriggerXMLProcessor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="43" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2243#2260#0" expanded="true" />
-              </folding>
+            <state line="19" column="13" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriggerManagerService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java">
+      <file leaf-file-name="TMSBootUpBroadcastReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TMSBootUpBroadcastReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="37" selection-start="1185" selection-end="1185" vertical-scroll-proportion="2.2">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#611#631#0" expanded="true" />
-                <element signature="e#1085#1731#0" expanded="true" />
-                <element signature="e#1724#1725#0" expanded="true" />
-              </folding>
+            <state line="15" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormsProviderAPI.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/FormsProviderAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="19" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ITMService.aidl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ITMService.aidl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ITMServiceCallback.aidl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ITMServiceCallback.aidl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -232,8 +297,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerTest.xml" />
-        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/ITMServiceCallback.aidl" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/ITMService.aidl" />
         <option value="$PROJECT_DIR$/../TriggerUtilities/src/com/xlabm/TriggerUtils/TimerTrigger.java" />
         <option value="$PROJECT_DIR$/../TriggerUtilities/src/com/xlabm/TriggerUtils/GeoTrigger.java" />
@@ -241,13 +304,15 @@
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/Trigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdef/TimerTrigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/ExecuteTrigger.java" />
-        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/TriggerFactory.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/Trigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/TimerTrigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/GeoTrigger.java" />
-        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/TMSBootUpBroadcastReceiver.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java" />
+        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" />
       </list>
     </option>
   </component>
@@ -256,9 +321,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1360" />
-    <option name="height" value="746" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -267,6 +333,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -291,11 +359,12 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TMService" />
+              <option name="myItemId" value="tmservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -305,21 +374,21 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TMService" />
+              <option name="myItemId" value="tmservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TMService" />
+              <option name="myItemId" value="XLMTriggerManagerService" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TMService" />
+              <option name="myItemId" value="tmservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TMService" />
+              <option name="myItemId" value="XLMTriggerManagerService" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -333,11 +402,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TMService" />
+              <option name="myItemId" value="tmservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TMService" />
+              <option name="myItemId" value="XLMTriggerManagerService" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -349,37 +418,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="triggerdefs" />
+              <option name="myItemId" value="tmutils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XLMTriggerManagerService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/xlabm/tmservice" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.side.proportion" value="0.17033604" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="DEBUGGABLE_DEVICE" value="014FA51D1201A011" />
+    <property name="DEBUGGABLE_PROCESS" value="edu.berkeley.xlab" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/xlabm/tmservice" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.17033604" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="PsiViewer.ProjectComponent">
@@ -398,7 +488,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xlabm.tmservice" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sid\Documents\Dev\Android\XLMTriggerManagerService\src\com\xlabm\tmservice" />
       <recent name="$PROJECT_DIR$/src/com/xlabm/tmservice" />
       <recent name="$PROJECT_DIR$/../Android/xMobile/odk1.3/opendatakit.collect/src/org/odk/collect/android" />
     </key>
@@ -411,7 +505,7 @@
       <recent name="com.xlabm.TriggerUtils" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Tests.TMServiceTest">
+  <component name="RunManager" selected="Android Application.TMService">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -538,9 +632,9 @@
       <method />
     </configuration>
     <configuration default="false" name="TMService" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="TMService" />
+      <module name="tmservice" />
       <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
+      <option name="MODE" value="do_nothing" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
@@ -551,6 +645,8 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
     <configuration default="false" name="opendatakit.collect1" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -570,13 +666,13 @@
       <method />
     </configuration>
     <configuration default="false" name="TMServiceTest" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="TMServiceTest" />
+      <module name="TMService" />
       <option name="TESTING_TYPE" value="0" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -585,6 +681,8 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
     <list size="3">
@@ -620,7 +718,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="" name="Default" comment="" />
       <changelist id="434e9e53-465d-4048-83a9-f8abd1dcca71" name="New" comment="" />
       <created>1368974790688</created>
       <updated>1368974790688</updated>
@@ -648,51 +745,53 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1360" height="746" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Code explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293461" sideWeight="0.68302387" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40894568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2621951" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SBBrowser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="FaTPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Scheme.REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32636657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Navigate" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.71619976" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26211452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Code Graph" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Plugins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Notes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33865815" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33590308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31278026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40894568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960127" sideWeight="0.68302387" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17982924" sideWeight="0.67180616" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33071747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Code explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293461" sideWeight="0.68302387" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBBrowser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="FaTPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Scheme.REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32636657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Library Finder" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Navigate" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Graph" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Plugins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Notes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -728,7 +827,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -738,7 +837,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed XMLParser and Bootup Problem" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -755,6 +854,7 @@
     <MESSAGE value="commitTest" />
     <MESSAGE value="assda" />
     <MESSAGE value="New" />
+    <MESSAGE value="Fixed XMLParser and Bootup Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -763,126 +863,125 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="atlassian-ide-plugin-workspace">
+    <option name="bambooConfiguration">
+      <BambooWorkspaceConfiguration>
+        <option name="view">
+          <BambooViewConfigurationBean />
+        </option>
+      </BambooWorkspaceConfiguration>
+    </option>
+    <option name="defaultCredentials">
+      <UserCfgBean />
+    </option>
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../TriggerUtils/out/TriggerUtilities.jar!/com/xlabm/TriggerUtils/TimerTrigger.class">
+    <entry file="file://$PROJECT_DIR$/project.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.13636364">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../TriggerUtils/out/TriggerUtilities.jar!/com/xlabm/TriggerUtils/Trigger.class">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/xlabm/tmservice/ITMService.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="54" selection-start="3963" selection-end="3963" vertical-scroll-proportion="0.0">
+        <state line="4" column="18" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/samples/android-17/XmlAdapters/src/com/example/android/xmladapters/ContactsListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.72048193">
           <folding>
-            <element signature="e#0#6311#0" expanded="true" />
+            <element signature="e#0#1272#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TriggerUtilities/src/com/xlabm/TriggerUtils/TimerTrigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TriggerUtilities/src/com/xlabm/TriggerUtils/GeoTrigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../TriggerUtilities/src/com/xlabm/TriggerUtils/Trigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="106" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="37" selection-start="1185" selection-end="1185" vertical-scroll-proportion="2.2">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#631#0" expanded="true" />
-            <element signature="e#1085#1731#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/Trigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/TimerTrigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="43" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2243#2260#0" expanded="true" />
-          </folding>
+        <state line="19" column="13" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TimerTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TriggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/FormsProviderAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0">
+        <state line="24" column="19" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/GeoTrigger.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ITMService.aidl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/TriggerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TMSBootUpBroadcastReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ITMServiceCallback.aidl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.52845526">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TMSBootUpBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/triggerTest.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="43" selection-start="750" selection-end="750" vertical-scroll-proportion="0.78507996">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -903,7 +1002,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Android (tmservice)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -927,7 +1026,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 4.2.2 Platform</last-edited>
+          <last-edited>Android 2.2 Google APIs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -939,7 +1038,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TMService</last-edited>
+          <last-edited>Android|tmservice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
