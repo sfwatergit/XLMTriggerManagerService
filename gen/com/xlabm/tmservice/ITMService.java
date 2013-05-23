@@ -2,7 +2,7 @@
 
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: C:\\Users\\Sid\\Documents\\Dev\\Android\\XLMTriggerManagerService\\src\\com\\xlabm\\tmservice\\ITMService.aidl
+ * Original file: /Users/mac/IdeaProjects/XLMTriggerManagerService/src/com/xlabm/tmservice/ITMService.aidl
  */
 package com.xlabm.tmservice;
 

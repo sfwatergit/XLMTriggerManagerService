@@ -95,7 +95,7 @@ public class TriggerManagerService extends Service {
         Uri mOdkFormUri = ContentUris.withAppendedId(FormsProviderAPI
                 .FormsColumns.CONTENT_URI, Long.getLong(mFormID));
 
-        int icon = android.R.drawable.star_on;
+        int icon = R.drawable.x;
         CharSequence tickerText = "A Friendly Reminder from XLab Mobile";
         long when = System.currentTimeMillis();
 
@@ -165,7 +165,7 @@ public class TriggerManagerService extends Service {
     public void onCreate() {
         super.onCreate();
         //TODO: Debug... remove when finished
-        mNM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+
         Log.v(TAG, "onCreate() called");
     }
 
@@ -195,6 +195,12 @@ public class TriggerManagerService extends Service {
     @Override
     public void onDestroy() {
         Log.v(TAG, "onDestroy()");
+        // Unregister all callbacks.
+        mCallbacks.kill();
+
+        // Remove the next pending message to increment the counter, stopping
+        // the increment loop.
+        mHandler.removeMessages(RUNNING_MSG);
     }
 
 }
