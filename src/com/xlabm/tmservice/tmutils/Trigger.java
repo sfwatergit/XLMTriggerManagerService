@@ -13,9 +13,9 @@ public abstract class Trigger {
 
 
     //Abstract Methods
-    public abstract void execute();
+    public abstract boolean execute();
 
-    public boolean stopThread() {
+    public boolean halt() {
         return false;
     }
 

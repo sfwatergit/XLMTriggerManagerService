@@ -19,10 +19,6 @@ import java.util.HashMap;
  */
 public class TriggerManagerService extends Service {
 
-    final RemoteCallbackList<ITMServiceCallback> mCallbacks
-            = new RemoteCallbackList<ITMServiceCallback>();
-    NotificationManager mNM;
-
     private static final int SUCCESS_MSG = 2;
     private static final int START_MSG = 0;
     private static final int RUNNING_MSG = 1;
@@ -31,14 +27,45 @@ public class TriggerManagerService extends Service {
     protected static Trigger sActiveTrigger;
     private static String mFormID;
     private static String mFormName;
+    final RemoteCallbackList<ITMServiceCallback> mCallbacks
+            = new RemoteCallbackList<ITMServiceCallback>();
+    /**
+     * Our Handler used to execute operations on the main thread.  This is used
+     * to schedule increments of our value.
+     */
+    private final Handler mHandler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case SUCCESS_MSG: {
+                    // Broadcast to all clients
+                    final int N = mCallbacks.beginBroadcast();
+                    for (int i = 0; i < N; i++) {
+                        try {
+                            mCallbacks.getBroadcastItem(i).updateAnswer(msg.obj.toString());
+                        } catch (RemoteException e) {
+                            // The RemoteCallbackList will take care of removing
+                            // the dead object for us.
+                        }
+                    }
+                    mCallbacks.finishBroadcast();
+
+                }
+                break;
+                default:
+                    super.handleMessage(msg);
+            }
+        }
+    };
+    NotificationManager mNM;
     Runnable triggerProcessor = new Runnable() {
         @Override
         public void run() {
             sActiveTrigger.execute();
             mHandler.sendMessage(mHandler.obtainMessage
                     (START_MSG, "Started"));
-            while (sActiveTrigger.getStatus() == 1) {
-                if (sActiveTrigger.stopThread()) {
+            while (sActiveTrigger.getStatus() == RUNNING_MSG) {
+                if (sActiveTrigger.halt()) {
                     mHandler.sendMessage(mHandler.obtainMessage
                             (SUCCESS_MSG, "Success"));
                     break;
@@ -51,36 +78,9 @@ public class TriggerManagerService extends Service {
 
         }
     };
-
     //TODO: Populate with parsed xml contents
     HashMap<String, Trigger> triggers;
-
-
-    //Implementation of remote interface:
-    private final class TriggerManager
-            extends ITMService.Stub {
-
-        @Override
-        public void setTrigger(String qid) throws
-                RemoteException {
-            sActiveTrigger = triggers.get(qid);
-            new Thread(triggerProcessor).start();
-
-
-            displayNotificationMessage("Set Trigger QID:", qid);
-            setTriggerFlag(1);
-        }
-
-        public void registerCallback(ITMServiceCallback cb) {
-            if (cb != null) mCallbacks.register(cb);
-
-        }
-
-        public void unregisterCallback(ITMServiceCallback cb) {
-            if (cb != null) mCallbacks.unregister(cb);
-        }
-    }
-
+    private TriggerXMLProcessor sProcessor;
 
     /**
      * Display notification message based on current state and the question
@@ -124,42 +124,9 @@ public class TriggerManagerService extends Service {
                 contentText, contentIntent);
     }
 
-
     public void setTriggerFlag(int flag) {
         Log.v(TAG, "Trigger flag set to " + flag);
     }
-
-
-    /**
-     * Our Handler used to execute operations on the main thread.  This is used
-     * to schedule increments of our value.
-     */
-    private final Handler mHandler = new Handler() {
-        @Override
-        public void handleMessage(Message msg) {
-            switch (msg.what) {
-                case SUCCESS_MSG: {
-                    // Broadcast to all clients
-                    final int N = mCallbacks.beginBroadcast();
-                    for (int i = 0; i < N; i++) {
-                        try {
-                            mCallbacks.getBroadcastItem(i).updateAnswer(msg.obj.toString());
-                        } catch (RemoteException e) {
-                            // The RemoteCallbackList will take care of removing
-                            // the dead object for us.
-                        }
-                    }
-                    mCallbacks.finishBroadcast();
-
-                }
-                break;
-                default:
-                    super.handleMessage(msg);
-            }
-        }
-    };
-
-    private TriggerXMLProcessor sProcessor;
 
     @Override
     public void onCreate() {
@@ -174,13 +141,15 @@ public class TriggerManagerService extends Service {
         super.onStartCommand(intent, flags, startId);
         Log.v(TAG, "onStart() called");
         sProcessor = new TriggerXMLProcessor();
-        sProcessor.getTriggers();
+        triggers = sProcessor.getTriggers();
+
         return START_STICKY;
     }
 
     //Return IBinder representing remotable object
     @Override
     public IBinder onBind(Intent intent) {
+        android.os.Debug.waitForDebugger();
         if (sProcessor.getStatus().equals(AsyncTask.Status.FINISHED)) {
             mFormID = sProcessor.getFormID();
             mFormName = sProcessor.getFormName();
@@ -201,6 +170,31 @@ public class TriggerManagerService extends Service {
         // Remove the next pending message to increment the counter, stopping
         // the increment loop.
         mHandler.removeMessages(RUNNING_MSG);
+    }
+
+    //Implementation of remote interface:
+    private final class TriggerManager
+            extends ITMService.Stub {
+
+        @Override
+        public void setTrigger(String qid) throws
+                RemoteException {
+            sActiveTrigger = triggers.get(qid);
+            new Thread(triggerProcessor).start();
+
+
+            displayNotificationMessage("Set Trigger QID:", qid);
+            setTriggerFlag(1);
+        }
+
+        public void registerCallback(ITMServiceCallback cb) {
+            if (cb != null) mCallbacks.register(cb);
+
+        }
+
+        public void unregisterCallback(ITMServiceCallback cb) {
+            if (cb != null) mCallbacks.unregister(cb);
+        }
     }
 
 }

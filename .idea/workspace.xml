@@ -23,31 +23,29 @@
       </GlobalState>
     </option>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="trig" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="434e9e53-465d-4048-83a9-f8abd1dcca71" name="New" comment="Fixed XMLParser and Bootup Problem">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/ServiceTester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+    <list default="true" id="434e9e53-465d-4048-83a9-f8abd1dcca71" name="New" comment="Testing the service callbacks">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/GeoTrigger.java" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/GeoTrigger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/xlabm/tmservice/ITMService.java" afterPath="$PROJECT_DIR$/gen/com/xlabm/tmservice/ITMService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/xlabm/tmservice/ITMServiceCallback.java" afterPath="$PROJECT_DIR$/gen/com/xlabm/tmservice/ITMServiceCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xlabm/tmservice/ServiceTester.java" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/ServiceTester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TimerTrigger.java" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TimerTrigger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/Trigger.java" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/Trigger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java" afterPath="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TMService.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/ITMService.aidl" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369182307983" ignored="false" />
-    <file path="/TriggerManagerService.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369318524525" ignored="false" />
+    <file path="/TriggerManagerService.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369636874508" ignored="false" />
     <file path="/Trigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369272066111" ignored="false" />
     <file path="/processTriggers.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1368982873459" ignored="false" />
-    <file path="/fragment.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369324452689" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369320746985" ignored="false" />
-    <file path="/Dummy.txt" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369312228162" ignored="false" />
+    <file path="/fragment.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369595912866" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369636117379" ignored="false" />
+    <file path="/Dummy.txt" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369755305245" ignored="false" />
     <file path="/GuardWidget.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369016437580" ignored="false" />
     <file path="$PROJECT_DIR$/TriggerUtils/res/layout/main.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369017466175" ignored="false" />
     <file path="$PROJECT_DIR$/../TriggerUtils/res/layout/main.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369017533622" ignored="false" />
@@ -59,10 +57,10 @@
     <file path="/a.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369072221077" ignored="false" />
     <file path="/a.scm" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369071861084" ignored="false" />
     <file path="/TMSBootUpBroadcastReceiver.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369202342864" ignored="false" />
-    <file path="/TriggerXMLProcessor.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369290572787" ignored="false" />
+    <file path="/TriggerXMLProcessor.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369594863881" ignored="false" />
     <file path="/TriggerFactory.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369284671354" ignored="false" />
-    <file path="/GeoTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369286312461" ignored="false" />
-    <file path="/TimerTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369286045009" ignored="false" />
+    <file path="/GeoTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369591178979" ignored="false" />
+    <file path="/TimerTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369591197237" ignored="false" />
     <file path="$PROJECT_DIR$/../Android/xMobile/odk1.3/.idea/workspace.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369191695720" ignored="false" />
     <file path="/DownloadXMLTask.java" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369157861657" ignored="false" />
     <file path="/testSurveyTriggers.xml" changelist="18d3b4bb-8a32-425f-b730-c1b45f309ec7" time="1369161878192" ignored="false" />
@@ -109,10 +107,16 @@
     <file path="/triggerTest.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369278661214" ignored="false" />
     <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/tmutils/defaultTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369284565557" ignored="false" />
     <file path="$PROJECT_DIR$/../TMXMLTest/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369285711668" ignored="false" />
-    <file path="/DefaultTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369285697087" ignored="false" />
+    <file path="/DefaultTrigger.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369591212147" ignored="false" />
     <file path="$PROJECT_DIR$/../TMXMLTest/gen/com/xlabm/tmservice/TMXMLTest/BuildConfig.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369294677412" ignored="false" />
     <file path="/ServiceTester.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369322662655" ignored="false" />
     <file path="/notifying_controller.xml" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369316406759" ignored="false" />
+    <file path="$USER_HOME$/Documents/Dev/android-sdk-macosx/samples/android-17/RenderScript/HelloCompute/gen/com/example/android/rs/hellocompute/ScriptC_mono.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369348389440" ignored="false" />
+    <file path="$USER_HOME$/Documents/Dev/android-sdk-macosx/samples/android-17/ApiDemos/gen/com/example/android/apis/app/ISecondary.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369592613831" ignored="false" />
+    <file path="$USER_HOME$/Documents/Dev/android-sdk-macosx/samples/android-17/ApiDemos/gen/com/example/android/apis/app/IRemoteService.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369592613831" ignored="false" />
+    <file path="$USER_HOME$/Documents/Dev/android-sdk-macosx/samples/android-17/ApiDemos/gen/com/example/android/apis/app/IRemoteServiceCallback.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369592840888" ignored="false" />
+    <file path="$USER_HOME$/Documents/Dev/android-sdk-macosx/samples/android-17/WiktionarySimple/gen/com/example/android/simplewiktionary/BuildConfig.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369348395027" ignored="false" />
+    <file path="$USER_HOME$/Documents/Dev/android-sdk-macosx/samples/android-17/ApiDemos/gen/com/example/android/apis/R.java" changelist="434e9e53-465d-4048-83a9-f8abd1dcca71" time="1369592612983" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +132,11 @@
     </option>
     <option name="showMethodBody" value="true" />
   </component>
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel url="file://$PROJECT_DIR$" />
+    <splitter proportion="0.48194945" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -142,22 +151,7 @@
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" line="40" class="com.xlabm.tmservice.TriggerManagerService$1" package="com.xlabm.tmservice">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ServiceTester.java" line="154" class="com.xlabm.tmservice.ServiceTester" package="com.xlabm.tmservice">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" line="141" class="com.xlabm.tmservice.TriggerManagerService" package="com.xlabm.tmservice">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -218,83 +212,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TriggerManagerService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TriggerManagerService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="2087" selection-end="2087" vertical-scroll-proportion="-6.84">
+            <state line="181" column="16" selection-start="6376" selection-end="6376" vertical-scroll-proportion="0.73125">
               <folding>
-                <element signature="e#1081#1727#0" expanded="true" />
-                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="e#995#1015#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceTester.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ServiceTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="0" selection-start="5858" selection-end="5858" vertical-scroll-proportion="0.33333334">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1658#2227#0" expanded="true" />
-                <element signature="e#2220#2221#0" expanded="true" />
-                <element signature="e#2810#2994#0" expanded="true" />
-                <element signature="e#2987#2988#0" expanded="true" />
-                <element signature="e#3040#3223#0" expanded="true" />
-                <element signature="e#3216#3217#0" expanded="true" />
-                <element signature="e#4008#4176#0" expanded="true" />
-                <element signature="e#4165#4166#0" expanded="true" />
-                <element signature="e#4273#4418#0" expanded="true" />
-                <element signature="e#4407#4408#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="18" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContextWrapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/content/ContextWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="404" column="0" selection-start="11149" selection-end="11149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="37" selection-start="1676" selection-end="1676" vertical-scroll-proportion="-3.3333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TriggerXMLProcessor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="0" selection-start="3711" selection-end="3711" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -313,6 +237,7 @@
         <option value="sid" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -331,22 +256,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../TriggerUtilities/src/com/xlabm/TriggerUtils/Trigger.java" />
-        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/Trigger.java" />
-        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdef/TimerTrigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/ExecuteTrigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/TriggerFactory.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/Trigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/TimerTrigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/triggerdefs/GeoTrigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/TMSBootUpBroadcastReceiver.java" />
+        <option value="$PROJECT_DIR$/res/layout/notifying_controller.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/Trigger.java" />
+        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/GeoTrigger.java" />
+        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TimerTrigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java" />
-        <option value="$PROJECT_DIR$/res/layout/notifying_controller.xml" />
-        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/ServiceTester.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java" />
       </list>
     </option>
   </component>
@@ -356,7 +281,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
+    <option name="width" value="1438" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -392,8 +317,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -435,28 +358,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tmservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XLMTriggerManagerService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmutils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,6 +435,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,9 +448,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TriggerManagerService/res/drawable/x.9.png" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Dev/android-sdk-macosx/samples/android-17/ApiDemos/src/com/example/android/apis/app" />
     <property name="DEBUGGABLE_DEVICE" value="014FA51D1201A011" />
-    <property name="DEBUGGABLE_PROCESS" value="edu.berkeley.xlab" />
+    <property name="DEBUGGABLE_PROCESS" value="com.xlabm.tmservice" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
@@ -566,9 +469,9 @@
   </component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
-    <option name="FILTER_WHITESPACE" value="false" />
-    <option name="SHOW_PROPERTIES" value="true" />
-    <option name="SPLIT_DIVIDER_POSITION" value="300" />
+    <option name="FILTER_WHITESPACE" value="true" />
+    <option name="SHOW_PROPERTIES" value="false" />
+    <option name="SPLIT_DIVIDER_POSITION" value="243" />
     <option name="AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
@@ -824,7 +727,11 @@
       <created>1369295553420</created>
       <updated>1369295553420</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Testing the service callbacks">
+      <created>1369325168595</created>
+      <updated>1369325168595</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -848,56 +755,56 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1438" height="874" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.7385714" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32747602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.71619976" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32625994" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.71619976" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Code explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293461" sideWeight="0.68302387" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5901857" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25845933" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40894568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27083334" sideWeight="0.5901857" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33071747" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SBBrowser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="FaTPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.7385714" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Scheme.REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.7" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Navigate" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40981433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Code Graph" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834706" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Plugins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Notes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31278026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960127" sideWeight="0.68302387" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="DatabaseBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22158274" sideWeight="0.36074272" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5901857" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33058986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5901857" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBBrowser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5901857" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="FaTPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Scheme.REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Navigate" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5901857" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42249656" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22158274" sideWeight="0.31299734" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Code Graph" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32655138" sideWeight="0.5901857" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Plugins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Notes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31167108" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51636904" sideWeight="0.5761317" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294204" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.7385714" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.7385714" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.7" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32636657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Library Finder" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32625994" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Library Finder" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29903978" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -943,7 +850,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed XMLParser and Bootup Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing the service callbacks" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -961,6 +868,7 @@
     <MESSAGE value="assda" />
     <MESSAGE value="New" />
     <MESSAGE value="Fixed XMLParser and Bootup Problem" />
+    <MESSAGE value="Testing the service callbacks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -989,128 +897,100 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ITMServiceCallback.aidl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="505" column="0" selection-start="21031" selection-end="21031" vertical-scroll-proportion="0.33248731" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/content/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.038071066" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/DefaultTrigger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="19" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TriggerManagerService/res/drawable/x.9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ITMService.aidl">
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ServiceTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/x.9.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/FormsProviderAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="787" selection-end="787" vertical-scroll-proportion="0.6833713">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="37" selection-start="1676" selection-end="1676" vertical-scroll-proportion="-3.3333333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="3711" selection-end="3711" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="50" column="71" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2224#2225#0" expanded="true" />
+            <element signature="e#2815#2999#0" expanded="true" />
+            <element signature="e#2992#2993#0" expanded="true" />
+            <element signature="e#3046#3229#0" expanded="true" />
+            <element signature="e#3222#3223#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="18" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0">
+        <state line="49" column="10" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/content/ContextWrapper.java">
+    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/util/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="404" column="0" selection-start="11149" selection-end="11149" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="294" column="0" selection-start="11210" selection-end="11210" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/tmutils/TriggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerXMLProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1058#1075#0" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/os/Parcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="481" column="0" selection-start="19952" selection-end="19952" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="0" selection-start="4112" selection-end="4112" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/os/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="0" selection-start="8311" selection-end="8311" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/os/MessageQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="0" selection-start="4264" selection-end="4264" vertical-scroll-proportion="4.3421054" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="0" selection-start="4227" selection-end="4227" vertical-scroll-proportion="0.29210526" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/os/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="533" column="0" selection-start="21425" selection-end="21425" vertical-scroll-proportion="5.9157896" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/TriggerManagerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2087" selection-end="2087" vertical-scroll-proportion="-6.84">
+        <state line="181" column="16" selection-start="6376" selection-end="6376" vertical-scroll-proportion="0.73125">
           <folding>
-            <element signature="e#1081#1727#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/app/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1079" column="22" selection-start="41395" selection-end="41395" vertical-scroll-proportion="0.5989848">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5061" column="0" selection-start="213665" selection-end="213665" vertical-scroll-proportion="0.48477158">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Dev/android-sdk-macosx/sources/android-17/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#20822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xlabm/tmservice/ServiceTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="0" selection-start="5858" selection-end="5858" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1658#2227#0" expanded="true" />
-            <element signature="e#2220#2221#0" expanded="true" />
-            <element signature="e#2810#2994#0" expanded="true" />
-            <element signature="e#2987#2988#0" expanded="true" />
-            <element signature="e#3040#3223#0" expanded="true" />
-            <element signature="e#3216#3217#0" expanded="true" />
-            <element signature="e#4008#4176#0" expanded="true" />
-            <element signature="e#4165#4166#0" expanded="true" />
-            <element signature="e#4273#4418#0" expanded="true" />
-            <element signature="e#4407#4408#0" expanded="true" />
+            <element signature="e#995#1015#0" expanded="true" />
           </folding>
         </state>
       </provider>

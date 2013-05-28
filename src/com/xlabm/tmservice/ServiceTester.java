@@ -14,6 +14,7 @@ import android.widget.Toast;
 /*
  * Copyright (C) 2007 The Android Open Source Project
  *
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -26,6 +27,7 @@ import android.widget.Toast;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 // Need the following import to get access to the app resources, since this
 // class is in a sub-package.
 
@@ -45,7 +47,7 @@ public class ServiceTester extends Activity {
     private ITMServiceCallback mCallback = new ITMServiceCallback.Stub() {
         /**
          * This is called by the remote service regularly to tell us about
-         * new values.  Note that IPC calls are dispatched through a thread
+         * new values.  note that IPC calls are dispatched through a thread
          * pool running in each process, so the code executing here will
          * NOT be running in our main thread like most other things -- so,
          * to update the UI, we need to use a Handler to hop over there.
@@ -69,19 +71,20 @@ public class ServiceTester extends Activity {
             }
         }
     };
+
     private OnClickListener mStartListener = new OnClickListener() {
         public void onClick(View v) {
             startService(new Intent(ServiceTester.this,
                     TriggerManagerService.class));
         }
     };
+
     private OnClickListener mStopListener = new OnClickListener() {
         public void onClick(View v) {
             stopService(new Intent(ServiceTester.this,
                     TriggerManagerService.class));
         }
     };
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -137,8 +140,6 @@ public class ServiceTester extends Activity {
                 break;
             default:
         }
-
-
     }
 
     private void releaseService() {
@@ -157,12 +158,7 @@ public class ServiceTester extends Activity {
         boolean ret = bindService(i, connection, Context.BIND_AUTO_CREATE);
         Log.d(TAG, "Binding success? " + ret);
 
-        try {
-            mCallback.updateAnswer("5");
-        } catch (RemoteException e) {
-            Log.d(TAG, "wtf");
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+
         //The status of the trigger is set to 1
         SharedPreferences mSharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(ServiceTester.this);

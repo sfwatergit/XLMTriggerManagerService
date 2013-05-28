@@ -38,10 +38,11 @@ public class TriggerXMLProcessor {
      *
      * @return the triggers
      */
-    public void getTriggers() {
+    public HashMap<String, Trigger> getTriggers() {
 
         downloadXMLTask = new DownloadXMLTask();
         downloadXMLTask.execute();
+        return mTriggers;
 
     }
 

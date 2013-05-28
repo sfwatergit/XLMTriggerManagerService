@@ -22,8 +22,9 @@ public class TimerTrigger extends Trigger {
 
 
     @Override
-    public void execute() {
+    public boolean execute() {
         super.status = 1;
+        return true;
 
     }
 
