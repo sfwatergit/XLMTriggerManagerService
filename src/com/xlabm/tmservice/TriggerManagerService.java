@@ -28,7 +28,7 @@ public class TriggerManagerService extends Service {
     private static final int RUNNING_MSG = 1;
     private static final String TAG = "TriggerManagerService";
     //We only want one activeTrigger at a time; make it a static object
-    protected static Trigger sActiveTrigger;
+    protected Trigger sActiveTrigger;
     private static String mFormID;
     private static String mFormName;
     Runnable triggerProcessor = new Runnable() {
@@ -54,6 +54,8 @@ public class TriggerManagerService extends Service {
 
     //TODO: Populate with parsed xml contents
     HashMap<String, Trigger> triggers;
+
+
 
 
     //Implementation of remote interface:
@@ -164,7 +166,7 @@ public class TriggerManagerService extends Service {
     public void onCreate() {
         super.onCreate();
         //TODO: Debug... remove when finished
-        mNM = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+
         Log.v(TAG, "onCreate() called");
     }
 

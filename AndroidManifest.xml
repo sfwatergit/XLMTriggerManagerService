@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.xlabm.tmservice">
-
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-sdk
             android:targetSdkVersion="21"
@@ -10,13 +9,12 @@
     <application
             android:icon="@drawable/icon"
             android:label="@string/app_name">
-        <receiver android:name="com.xlabm.tmservice.TMSBootUpBroadcastReceiver">
+        <receiver android:name="com.xlabm.tmservice.TMSBootUpBroadcastReceiver"
+                android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
         </receiver>
-        <receiver android:name=".TMSBootUpBroadcastReceiver"/>
-
         <service
                 android:name=".TriggerManagerService"
                 android:permission="@string/app_name">

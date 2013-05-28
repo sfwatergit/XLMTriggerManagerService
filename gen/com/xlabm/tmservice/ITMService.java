@@ -2,7 +2,7 @@
 
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /Users/mac/IdeaProjects/TMService/src/com/xlabm/tmservice/ITMService.aidl
+ * Original file: /Users/mac/IdeaProjects/TriggerManagerService/src/com/xlabm/tmservice/ITMService.aidl
  */
 package com.xlabm.tmservice;
 public interface ITMService extends android.os.IInterface
